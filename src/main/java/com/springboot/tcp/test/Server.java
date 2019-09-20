@@ -1,6 +1,5 @@
 package com.springboot.tcp.test;
 
-import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,7 +7,6 @@ import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-@Slf4j
 public class Server
 {
     public void getServerDemo() throws IOException {
